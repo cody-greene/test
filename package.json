@@ -1,0 +1,15 @@
+{
+  "name": "dependency-bot",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "mkdir -p dist && browserify --node --no-bundle-external src/webtask.js >dist/bundle.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "honeybee": "^1.1.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
