@@ -6,9 +6,9 @@
     "start": "mkdir -p dist && browserify --node --no-bundle-external src/webtask.js >dist/bundle.js"
   },
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "honeybee": "^1.1.0",
-    "lodash": "^4.17.4"
+    "bluebird": "3.5.0",
+    "honeybee": "1.1.0",
+    "q": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^14.4.0"
